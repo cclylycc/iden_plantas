@@ -1,5 +1,5 @@
-# Use opencv-python-headless for servers (no GUI dependencies)
-# Use opencv-python for local development if you need GUI features
+# Server deployment requirements
+# Use headless version of OpenCV (no GUI dependencies)
 opencv-python-headless>=4.4
 pillow
 khandy>=0.1.8
@@ -10,3 +10,4 @@ fastapi>=0.104.0
 uvicorn[standard]>=0.24.0
 python-multipart>=0.0.6
 pydantic>=2.0.0
+
